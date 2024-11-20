@@ -32,28 +32,28 @@ export default function Footer() {
 
           {/* Social Media Links */}
           <div className="flex space-x-6">
-            <a
+            <Link
               href="https://www.linkedin.com/in/zija-yaseen-0154722b2"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#8564ad] transition"
+              className="hover:text-[#0077b5] transition"
             >
               <FaLinkedin size={24} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://github.com/ZijaYaseen"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#8564ad] transition"
+              className="hover:text-gray-500 transition"
             >
               <FaGithub size={24} />
-            </a>
-            <a
+            </Link>
+            <Link
               href="mailto:zijayaseen15@gmail.com"
               className="hover:text-purple transition"
             >
               <FaEnvelope size={24} />
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -67,7 +67,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="mt-8 text-center border-t border-gray-600 pt-4 text-gray-400 text-sm">
-          © {new Date().getFullYear()} Zija Yaseen. All rights reserved.
+          &copy; {new Date().getFullYear()} Zija Yaseen. All rights reserved.
         </div>
       </div>
     </footer>
