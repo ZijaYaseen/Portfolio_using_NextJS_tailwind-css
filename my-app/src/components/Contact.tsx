@@ -8,10 +8,10 @@ export default function ContactSection() {
 
                 {/* Left Section - Contact Details */}
                 <div className="md:p-14 p-2 text-white text-center md:text-left">
-                    <h2 className="md:text-4xl text-[26px] font-bold mb-4">Let's <span className="text-purple"> Connect </span> with Me</h2>
+                    <h2 className="md:text-4xl text-[26px] font-bold mb-4">Let&apos;s <span className="text-purple"> Connect </span> with Me</h2>
                     <p className="text-gray-300 mb-8 text-[16px]">
-                        Excited to bring ideas to life? Let's collaborate! Whether it's an innovative project, a creative concept, or a vision you'd like to shape, I'm here to connect and contribute.
-                        Feel free to reach out. Let's create something extraordinary together!.
+                        Excited to bring ideas to life? Let&apos;s collaborate! Whether it&apos;s an innovative project, a creative concept, or a vision you&apos;d like to shape, I&apos;m here to connect and contribute.
+                        Feel free to reach out. Let&apos;s create something extraordinary together!.
                     </p>
 
                     <div className="space-y-4">
@@ -39,7 +39,7 @@ export default function ContactSection() {
                                 target="_blank"
                                 rel="noreferrer"
                             >
-                                <span className="hover:underline">Let's collaborate on GitHub</span>
+                                <span className="hover:underline">Let&apos;s collaborate on GitHub</span>
                                 
                             </Link>
                         </div>

@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="md:max-w-xs text-center md:text-left">
             <h2 className="text-2xl font-bold">Zija <span className="text-purple"> Yaseen</span> </h2>
             <p className="text-gray-400 text-sm">
-              Web Developer & Designer. Let's build something great together!
+              Web Developer & Designer. Let&apos;s build something great together!
             </p>
           </div>
 
