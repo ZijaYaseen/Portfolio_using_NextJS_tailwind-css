@@ -6,6 +6,7 @@ import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "@/components/ui/GradientBg";
 import MagicButton from "./MagicButton";
 import animationData from "@/data/confetti.json";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,
@@ -88,11 +89,13 @@ export const BentoGridItem = ({
       <div className={`${id === 6 && "flex justify-center"} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
-            <img
-              src={img}
-              alt={img}
-              className={cn(imgClassName, "object-cover object-center")}
-            />
+           <Image
+           src={img}
+           alt={img}
+           className={cn(imgClassName, "object-cover object-center")}
+           layout="fill" // Parent container ko fill karega
+           objectFit="cover" // Image ko proportionate rakhega
+         />
           )}
         </div>
         <div
