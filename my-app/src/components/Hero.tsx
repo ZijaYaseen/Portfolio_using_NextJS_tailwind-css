@@ -51,7 +51,7 @@ const Hero = () => {
             <span>A </span>
             <span className="typing"></span>
           </h2>
-          <p className='text-blue-100 text-center md:text-left md:tracking-wider mb-1 text-xs md:text-sm lg:text-sm md:max-w-[80%] '>
+          <p className='text-blue-100 text-center md:text-left md:tracking-wider mb-1 text-sm lg:text-sm md:max-w-[80%] '>
             Turning visions into interactive digital realities, I build responsive, high-performance web applications with Next.js. My focus is on delivering seamless, user-centric designs that enhance engagement and functionality. Blending creativity with technical precision, I ensure each project is both visually appealing and efficient. I’m passionate about transforming ideas into impactful digital experiences.
           </p>
 
