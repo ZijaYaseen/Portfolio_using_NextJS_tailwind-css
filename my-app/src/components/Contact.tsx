@@ -52,11 +52,10 @@ export default function ContactSection() {
                     Contact Me
                 </h2>
                 <form
-                    action="https://formsubmit.co/zijayaseen15@gmail.com"
                     method="POST"
                     className="space-y-2"
                 >
-                    <input type="hidden" name="_captcha" value="false" /> {/* Add this */}
+                    <input type="hidden" name="_captcha" value="false" />
                     <div>
                         <label className="block text-sm font-medium text-gray-700">
                             Name
