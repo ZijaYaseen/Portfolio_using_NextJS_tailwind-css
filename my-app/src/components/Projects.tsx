@@ -6,6 +6,17 @@ import Link from 'next/link';
 
 const projects = [
   {
+    title: "E-commerce Website - Built with React.Js Next.Js and Tailwind CSS ",
+    description: "A full-featured E-commerce web application built using React.js and Next.js. Styled with Tailwind CSS for a responsive and modern UI. The project includes Redux for state management, real-time API integration for dynamic product data, and efficient data fetching techniques to ensure fast and smooth user experience.",
+    image: "/project8.png",
+    techStack: [
+      { icon: <FaReact />, color: '#61DAFB' },
+    { icon: <SiTypescript />, color: '#3178C6' },
+    { icon: <SiTailwindcss />, color: '#38BDF8' },
+    ],
+    liveLink: 'https://figma-to-next-js-sofa-website.vercel.app/',
+  },
+  {
     title: "Portfolio Website - Built with HTML & CSS",
     description: "Explore my personal portfolio website, designed using HTML and CSS and JavaScript.",
     image: "/project5.png",
