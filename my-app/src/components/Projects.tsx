@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaReact, FaNodeJs, FaLocationArrow, FaHtml5, FaCss3, } from 'react-icons/fa';
-import { SiTailwindcss, SiTypescript, SiJavascript } from 'react-icons/si';
+import { SiTailwindcss, SiTypescript, SiJavascript, SiNextdotjs, SiFramer } from 'react-icons/si';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -14,8 +14,81 @@ const projects = [
     { icon: <SiTypescript />, color: '#3178C6' },
     { icon: <SiTailwindcss />, color: '#38BDF8' },
     ],
-    liveLink: 'https://figma-to-next-js-sofa-website.vercel.app/',
+    liveLink: 'https://ecofurnisher-website.vercel.app/',
   },
+  {
+    title: "Interior Design Website - Built with React.Js Next.Js and Tailwind CSS",
+    description:
+      "A polished interior design showcase built with Next.js, styled in Tailwind CSS and brought to life with Framer Motion animations.",
+    image: "/project4.png",
+    techStack: [
+      { icon: <SiNextdotjs />, color: "#ffffff" },
+      { icon: <SiTailwindcss />, color: "#38BDF8" },
+      { icon: <SiFramer />, color: "#E10098" },
+    ],
+    liveLink: "https://interior-website-iota.vercel.app/",
+  },
+  {
+  title: 'AI Blog Website Built with Next.js & Tailwind CSS',
+   description: 'Discover the world of AI through a modern blog built with Next.js, TypeScript, and Tailwind CSS for a fast, responsive experience.',
+   image: '/project7.png',
+   techStack: [
+     { icon: <FaReact />, color: '#61DAFB' },
+     { icon: <SiTypescript />, color: '#3178C6' },
+     { icon: <SiTailwindcss />, color: '#38BDF8' },
+   ],
+   liveLink: 'https://blog-website-next-js-milestone-03.vercel.app/',
+ },
+ {
+    title: "Breakio Landing Page",
+    description:
+      "A responsive landing page for a meditation app, featuring feature highlights, user stories, FAQs, and call‑to‑action sections, built with Next.js and Tailwind CSS.",
+    image: "/project9.png",
+    techStack: [
+      { icon: <SiNextdotjs />, color: "#000000" },
+      { icon: <SiTailwindcss />, color: "#38BDF8" },
+      { icon: <SiJavascript />, color: "#F7DF1E" },
+    ],
+    liveLink:
+      "https://code-bite-s-pre-interview-task-landing-page-02.vercel.app/",
+  },
+  {
+    title: "Task Landing Page",
+    description:
+      "The second version of a versatile responsive landing page showcasing a bold hero section, feature highlights, pricing tiers, testimonial cards, and an FAQ accordion, all built with Next.js and Tailwind CSS.",
+    image: "/project10.png", // apni screenshot ka naam/path yahan update kar den
+    techStack: [
+      { icon: <SiNextdotjs />, color: "#000000" },
+      { icon: <SiTailwindcss />, color: "#38BDF8" },
+      { icon: <SiJavascript />, color: "#F7DF1E" },
+    ],
+    liveLink:
+      "https://code-bite-s-pre-interview-task-landing-page-03.vercel.app/",
+  },
+  {
+    title: "Launch Your App, Grow Your Business",
+    description:
+      "The third version of a clean, responsive landing page template featuring a hero section, feature highlights, pricing plans, testimonial cards, and an FAQ accordion, built with Next.js and Tailwind CSS.",
+    image: "/project11.png", // apni screenshot ka path/yahan update karen
+    techStack: [
+      { icon: <SiNextdotjs />, color: "#000000" },
+      { icon: <SiTailwindcss />, color: "#38BDF8" },
+      { icon: <SiJavascript />, color: "#F7DF1E" },
+    ],
+    liveLink:
+      "https://code-bite-s-pre-interview-task-landing-page-01.vercel.app/",
+  },
+  {
+ title: 'iPhone 14 Pro Website - Next.js & Tailwind CSS',
+  description: 'A sleek responsive iPhone 14 Pro website built from a Figma design using Next.js, TypeScript and Tailwind CSS.',
+  image: '/project6.png',
+  techStack: [
+    { icon: <FaReact />, color: '#61DAFB' },
+    { icon: <SiTypescript />, color: '#3178C6' },
+    { icon: <SiTailwindcss />, color: '#38BDF8' },
+  ],
+  liveLink: 'https://next-js-sunday-07-class-assignment-iphone14-website.vercel.app/',
+}, 
   {
     title: "Portfolio Website - Built with HTML & CSS",
     description: "Explore my personal portfolio website, designed using HTML and CSS and JavaScript.",
@@ -27,17 +100,7 @@ const projects = [
     ],
     liveLink: 'https://zijayaseen.github.io/Portfolio/',
   },
-  {
-    title: "Typescript Node.js & Inquirer CLI Based Projects",
-    description: "CLI-based projects built with TypeScript, Node.js, and Inquirer.js, showcasing interactive command-line applications with robust functionality.",
-    image: "/project4.jpg",
-    techStack: [
-      { icon: <SiTypescript />, color: '#3178C6' },
-      { icon: <SiJavascript />, color: '#F7DF1E' },
-      { icon: <FaNodeJs />, color: '#8CC84B' },
-    ],
-    liveLink: 'https://github.com/ZijaYaseen/TypeScript-Node_Projects.git',
-  },
+  
   {
     title: "Resume Builder Website",
     description: "Create professional resumes effortlessly with our dynamic and user-friendly resume builder.",
@@ -71,28 +134,7 @@ const projects = [
     ],
     liveLink: 'https://zijayaseen.github.io/Calculator-Using-HTML5-CSS-TypeScript/',
   },
-  {
- title: 'iPhone 14 Pro Website - Next.js & Tailwind CSS',
-  description: 'A sleek responsive iPhone 14 Pro website built from a Figma design using Next.js, TypeScript and Tailwind CSS.',
-  image: '/project6.png',
-  techStack: [
-    { icon: <FaReact />, color: '#61DAFB' },
-    { icon: <SiTypescript />, color: '#3178C6' },
-    { icon: <SiTailwindcss />, color: '#38BDF8' },
-  ],
-  liveLink: 'https://next-js-sunday-07-class-assignment-iphone14-website.vercel.app/',
-}, 
-{
-  title: 'AI Blog Website Built with Next.js & Tailwind CSS',
-   description: 'Discover the world of AI through a modern blog built with Next.js, TypeScript, and Tailwind CSS for a fast, responsive experience.',
-   image: '/project7.png',
-   techStack: [
-     { icon: <FaReact />, color: '#61DAFB' },
-     { icon: <SiTypescript />, color: '#3178C6' },
-     { icon: <SiTailwindcss />, color: '#38BDF8' },
-   ],
-   liveLink: 'https://ai-blog-website-gold.vercel.app/',
- }, 
+ 
 ];
 
 const Projects = () => {

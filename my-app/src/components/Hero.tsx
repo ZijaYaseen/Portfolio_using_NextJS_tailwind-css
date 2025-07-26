@@ -12,7 +12,7 @@ const Hero = () => {
   useEffect(() => {
     // Initialize the typing effect
     const options = {
-      strings: ["Frontend Web Developer", "React.js Enthusiast", "TypeScript Expert", "UI/UX Designer"], // Words to type
+      strings: ["Frontend Web Developer","FullStack Web Developer", "React.js Enthusiast", "TypeScript Expert", "Next.Js Developer"], // Words to type
       typeSpeed: 100, // Typing speed in milliseconds
       backSpeed: 60, // Backspacing speed in milliseconds
       loop: true, // Whether to loop through the words
@@ -41,7 +41,7 @@ const Hero = () => {
 
       <div className='flex flex-col md:flex-row justify-between text-center relative'>
         <div className=' text-center md:text-left'>
-          <h2 className='md:pt-32 text-center md:text-left uppercase tracking-widest md:text-xs text-[10px] text-blue-100'>
+          <h2 className='md:pt-28 text-center md:text-left uppercase tracking-widest md:text-xs text-[10px] text-blue-100'>
             Dynamic Web Experiences with Next.js
           </h2>
           <h1 className=' text-center md:text-left mt-4 font-bold text-[28px] md:text-4xl lg:text-5xl'>
