@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaReact, FaNodeJs, FaLocationArrow, FaHtml5, FaCss3, } from 'react-icons/fa';
+import { FaReact, FaLocationArrow, FaHtml5, FaCss3, } from 'react-icons/fa';
 import { SiTailwindcss, SiTypescript, SiJavascript, SiNextdotjs, SiFramer } from 'react-icons/si';
 import Image from 'next/image';
 import Link from 'next/link';
